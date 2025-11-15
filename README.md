@@ -1,4 +1,4 @@
-## README: SLAM to GPS Coordinate Transformation
+### README: SLAM to GPS Coordinate Transformation
 
 ---
 
@@ -85,10 +85,11 @@ pip install open3d numpy pandas pyproj matplotlib folium scipy
 1. **Run the Script**:
    - Execute the Python script to process the input files and generate the outputs:
      ```bash
-     python Main.py
+     python Map_coordinates.py
      ```
 
 2. **View Outputs**:
    - Open the generated CSV files to inspect the transformed SLAM map and trajectory.
    - Open the HTML file (`trajectory_with_slam_and_interpolated_gps_subset.html`) in a browser to view the interactive map.
+
 
